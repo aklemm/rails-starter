@@ -12,6 +12,7 @@ default: &default
 development:
   <<: *default
   database: swtest
+  host: localhost
   username: swtest
   password: swtest
   
