@@ -11,17 +11,21 @@ default: &default
 
 development:
   <<: *default
-  database: sw-test
-  username: sw-test
-  password: sw-test
+  database: swtest
+  host: localhost
+  username: swtest
+  password: swtest
   
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: db/sw-test
+  database: swtest
 
 production:
   <<: *default
-  database: sw-test
+  database: d21shnbrm72k36
+  user: arjwhjylmpbzdm
+  password: a05c2766a4ee34736a3ee631c9579bc6e56ac9fa2e886db9995d7ad198f7d072
+
